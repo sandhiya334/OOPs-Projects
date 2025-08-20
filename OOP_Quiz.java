@@ -63,6 +63,7 @@ public class OOP_Quiz {
 				Choice = input.next().charAt(0);
 				input.nextLine();
 			} 
+			
 			while (Choice == 'y' || Choice == 'Y');
 			System.out.println("\n\t   \t GAME OVER !!...");
 			input.close();

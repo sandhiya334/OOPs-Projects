@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class OOP_Quiz {
@@ -70,4 +68,5 @@ public class OOP_Quiz {
 		}
 	}
 }
+
 

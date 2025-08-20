@@ -1,4 +1,4 @@
-package Class_Objects;
+
 
 import java.util.Scanner;
 
@@ -70,3 +70,4 @@ public class OOP_Quiz {
 		}
 	}
 }
+

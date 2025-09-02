@@ -1,6 +1,6 @@
-package Class_Objects;
 
-public class Employee {
+public class Emppackage Class_Objects;
+loyee {
 	String EmpName;
 	int EmpId;
 	double EmpSalary;

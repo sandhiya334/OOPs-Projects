@@ -1,4 +1,3 @@
-package Class_Objects;
 
 public class Intern extends Employee{ 
 		private double Stipend;

@@ -25,14 +25,16 @@ public class MainEmployee {
 					System.out.print("\nEnter the Employee name ");
 					String ftName = sc.nextLine();
 					
-					System.out.print("Enter Type ");
-					String type = sc.nextLine();
-					
 					System.out.print("Enter the Employee Base Salary ");
 					double ftbase = sc.nextDouble();
+					sc.nextLine();
 					
 					System.out.print("Enter the Employee Bonus");
 					double ftbonus = sc.nextDouble();
+					sc.nextLine();
+					
+					System.out.print("Enter Type ");
+					String type = sc.nextLine();
 					
 					emp.add(new FullTimeEmployee(ftName, nextId++,type, ftbase, ftbonus));
 					
@@ -48,10 +50,11 @@ public class MainEmployee {
 					System.out.print("Enter the Employee Total Working Hours ");
 					int hr = sc.nextInt();
 					
-					System.out.print("Enter the Employee Per Hours Rate");
+					System.out.print("Enter the Employee Per Hours Rate: ");
 					double rate = sc.nextDouble();
+					sc.nextLine();  
 					
-					System.out.println("Enter Type ");
+					System.out.print("Enter Type: ");
 					String type2 = sc.nextLine();
 					
 					
@@ -66,10 +69,11 @@ public class MainEmployee {
 					System.out.print("\nEnter the Intern name ");
 					String Name = sc.nextLine();
 					
-					System.out.print("Enter the Intern Stipend ");
+					System.out.print("Enter the Intern Stipend: ");
 					double stipend = sc.nextDouble();
-					
-					System.out.println("Enter Type ");
+					sc.nextLine(); // ✅ consume newline
+
+					System.out.print("Enter Type: ");
 					String type3 = sc.nextLine();
 					
 					emp.add(new Intern(Name, nextId++,type3, stipend));

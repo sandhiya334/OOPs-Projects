@@ -86,6 +86,9 @@ public class MainEmployee {
 						System.out.println("No Employee Is there To Display !..");
 					}
 					else {
+						System.out.println("\n-------------------------------------\n");
+						System.out.println("\tThe Employees Details....");
+						
 						for(Employee e: emp) {
 							e.display();
 							System.out.println("\n-------------------------------------\n");

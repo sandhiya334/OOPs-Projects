@@ -1,4 +1,3 @@
-package Class_Objects;
 
 public class FullTimeEmployee extends Employee {
 

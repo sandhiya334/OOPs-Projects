@@ -1,4 +1,3 @@
-package Class_Objects;
 
 public class PartTimeEmployee extends Employee { 
 	private double HrRate;
